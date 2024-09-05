@@ -30,9 +30,7 @@ function Home() {
                             />
                           </h1>
                           <h1 className="sub-heading">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Integer nec odio. Praesent libero. Sed cursus
-                            ante dapibus diam.
+                          Discover a new way to experience music with Global – the decentralized platform where music, art, and blockchain unite. Whether you're an artist or a fan, Global lets you create, buy, and sell music NFTs while earning real rewards for your engagement.
                           </h1>
                           <div className="btn-slider">
                             <a
@@ -66,11 +64,11 @@ function Home() {
                             alt="Image"
                             className="img-slider-3 ani5"
                           /> */}
-                          <div className="current-bid ">
-                            <div className="title"></div>
-                            <div className="price"></div>
+                          <div className="">
+                            {/* <div className="title"></div>
+                            <div className="price"></div> */}
                           </div>
-                          <div className="card-infor ani5">
+                          {/* <div className="card-infor ani5">
                             <img
                               src="assets/images/slider/slider-4.png"
                               alt="Image"
@@ -79,7 +77,7 @@ function Home() {
                               <h6 className="name"></h6>
                               <p className="author"></p>
                             </div>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>

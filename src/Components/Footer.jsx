@@ -10,7 +10,7 @@ function Footer() {
             <div className="logo">
               <img
                 id="logo_footer"
-                src="assets/images/logo/logo_dark.png"
+                src="assets/images/logo/logo_dark2.png"
               />
             </div>
             <p className="content">
