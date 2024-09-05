@@ -11,7 +11,6 @@ function Footer() {
               <img
                 id="logo_footer"
                 src="assets/images/logo/logo_dark.png"
-                alt="Image"
               />
             </div>
             <p className="content">
