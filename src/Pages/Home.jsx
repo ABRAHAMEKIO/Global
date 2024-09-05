@@ -42,30 +42,30 @@ function Home() {
                               Explore now
                             </a>
                             <a
-                              href="add-NFT.html"
+                              href="/create"
                               className="tf-button style-3"
                             >
-                              Creat
+                              Create
                             </a>
                           </div>
                         </div>
                         <div className="image">
                           <div className="img-slider-main ani5">
                             <img
-                              src="assets/images/slider/slider-1.jpg"
+                              src="assets/images/slider/slider-0.jpg"
                               alt="Image"
                             />
                           </div>
-                          <img
+                          {/* <img
                             src="assets/images/slider/slider-2.png"
                             alt="Image"
                             className="img-slider-2 ani4"
-                          />
-                          <img
+                          /> */}
+                          {/* <img
                             src="assets/images/slider/slider-3.png"
                             alt="Image"
                             className="img-slider-3 ani5"
-                          />
+                          /> */}
                           <div className="current-bid ">
                             <div className="title"></div>
                             <div className="price"></div>
