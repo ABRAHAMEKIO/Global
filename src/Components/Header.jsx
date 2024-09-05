@@ -30,20 +30,7 @@ function Header() {
                     <a href="#">Explore</a>
                     <ul className="sub-menu">
                       <li className="menu-item">
-                        <a href="explore-grid.html">Explore</a>
-                      </li>
-                      <li className="menu-item">
-                        <a href="explore-banner.html">Explore 2</a>
-                      </li>
-                      <li className="menu-item">
-                        <a href="explore-sidebar-3-item.html">
-                          Explore 3 Item
-                        </a>
-                      </li>
-                      <li className="menu-item">
-                        <a href="explore-sidebar-4-item.html">
-                          Explore 4 Item
-                        </a>
+                        <a href="/Explore">Explore</a>
                       </li>
                       <li className="menu-item">
                         <a href="collection.html">Collection</a>
@@ -52,13 +39,7 @@ function Header() {
                         <a href="live-auction.html">Live Auction</a>
                       </li>
                       <li className="menu-item">
-                        <a href="live-auction-2.html">Live Auction 2</a>
-                      </li>
-                      <li className="menu-item">
                         <a href="item-details.html">Item Details</a>
-                      </li>
-                      <li className="menu-item">
-                        <a href="item-details-2.html">Item Details 2</a>
                       </li>
                     </ul>
                   </li>
@@ -89,16 +70,6 @@ function Header() {
                               Dashboard Favorites
                             </a>
                           </li>
-                          <li className="menu-item">
-                            <a href="edit-profile-board.html">
-                              Dashboard Edit Profile 1
-                            </a>
-                          </li>
-                          <li className="menu-item">
-                            <a href="edit-profile-board2.html">
-                              Dashboard Edit Profile 2
-                            </a>
-                          </li>
                         </ul>
                       </li>
                       <li className="menu-item">
@@ -113,12 +84,12 @@ function Header() {
                       <li className="menu-item">
                         <a href="/ConnectWallet">Connect Wallet</a>
                       </li>
-                      <li className="menu-item">
+                      {/* <li className="menu-item">
                         <a href="login.html">Login</a>
                       </li>
                       <li className="menu-item">
                         <a href="signup.html">Sign Up</a>
-                      </li>
+                      </li> */}
                     </ul>
                   </li>
                   <li className="menu-item">
@@ -142,7 +113,7 @@ function Header() {
                     </ul>
                   </li>
                   <li className="menu-item">
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.html">Docs</a>
                   </li>
                 </ul>
               </nav>

@@ -36,7 +36,7 @@ function Home() {
                           </h1>
                           <div className="btn-slider">
                             <a
-                              href="explore-banner.html"
+                              href="/Explore"
                               className="tf-button style-2"
                             >
                               Explore now
