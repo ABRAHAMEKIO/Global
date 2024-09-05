@@ -1,0 +1,70 @@
+/* General body styling */
+body {
+  background-color: black; /* Set the background to black */
+  color: white; /* Set text color to white */
+}
+
+/* Headers */
+header, .header, #site-header-inner {
+  background-color: black; /* Header background */
+  color: white; /* Header text */
+}
+
+/* Links */
+a {
+  color: white; /* Link text color */
+}
+
+a:hover {
+  color: grey; /* Link hover color */
+}
+
+/* Buttons */
+button, .tf-button {
+  background-color: white; /* Button background */
+  color: black; /* Button text */
+}
+
+button:hover, .tf-button:hover {
+  background-color: grey; /* Button hover background */
+  color: white; /* Button hover text */
+}
+
+/* Input fields */
+input, textarea, select {
+  background-color: black; /* Input background */
+  color: white; /* Input text color */
+  border: 1px solid white; /* Input border */
+}
+
+input::placeholder, textarea::placeholder {
+  color: grey; /* Placeholder text color */
+}
+
+/* Tables */
+table {
+  background-color: black; /* Table background */
+  color: white; /* Table text color */
+  border: 1px solid white; /* Table border */
+}
+
+th, td {
+  border: 1px solid white; /* Cell border */
+  padding: 8px; /* Cell padding */
+}
+
+th {
+  background-color: grey; /* Header cell background */
+  color: black; /* Header cell text color */
+}
+
+/* Media Query Overrides */
+@media only screen and (max-width: 1600px) {
+  .header #site-header-inner #site-logo {
+    background-color: black; /* Black background */
+  }
+  .tf-item-detail-inner .image {
+    background-color: black; /* Black background */
+  }
+  /* Additional media query overrides for black and white colors */
+}
