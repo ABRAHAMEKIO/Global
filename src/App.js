@@ -3,6 +3,7 @@ import Home from './Pages/Home'
 import ConnectWallet from './Pages/ConnectWallet'
 import Create from './Pages/Create'
 import Explore from './Pages/Explore'
+import Profile from './Pages/Profile'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
@@ -18,6 +19,7 @@ function App() {
         <Route path='/Connectwallet' element={<ConnectWallet/>}/>
         <Route path='/create' element={<Create/>}/>
         <Route path='/Explore' element={<Explore/>}/>
+        <Route path='/Profile' element={<Profile/>}/>
       </Routes>
       </BrowserRouter>
       <Footer/>

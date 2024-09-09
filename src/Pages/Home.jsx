@@ -204,520 +204,210 @@ function Home() {
                 </a>
               </div>
             </div>
-            <div className="col-md-12 wow fadeInUp">
-              <div className="swiper-container live-auction visible">
-                <div className="swiper-wrapper ">
-                  <div className="swiper-slide">
-                    <div className="slider-item">
-                      <div className="sc-product style1">
-                        <div className="top">
-                          <a href="item-details.html" className="tag">
-                            Giulia Glur #32
-                          </a>
-                          <div className="wish-list">
-                            <a href="#" className="heart-icon" />
-                          </div>
-                        </div>
-                        <div className="features">
-                          <div className="product-media">
-                            <img
-                              src="assets/images/product/product1.jpg"
-                              alt="images"
-                            />
-                          </div>
-                          <div className="featured-countdown">
-                            <span
-                              className="js-countdown"
-                              data-timer={55555}
-                              data-labels=" ,  h , m , s "
-                            />
-                          </div>
-                          <div className="rain-drop1">
-                            <img
-                              src="assets/images/icon/rain1.svg"
-                              alt="images"
-                            />
-                          </div>
-                          <div className="rain-drop2">
-                            <img
-                              src="assets/images/icon/rain2.svg"
-                              alt="images"
-                            />
-                          </div>
-                        </div>
-                        <div className="bottom">
-                          <div className="details-product">
-                            <div className="author">
-                              <div className="avatar">
-                                <img
-                                  src="assets/images/author/author1.png"
-                                  alt="images"
-                                />
-                              </div>
-                              <div className="content">
-                                <div className="position">Creator</div>
-                                <div className="name">
-                                  {" "}
-                                  <a href="#">Magnus Perry</a>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="current-bid">
-                              <div className="subtitle"></div>
-                              <div className="price">
-                                <span className="cash">5 ETH</span>
-                                <span className="icon">
-                                  <img
-                                    src="assets/icon/preload.png"
-                                    alt="images"
-                                  />
-                                </span>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="product-button">
-                            <a
-                              href="#"
-                              data-toggle="modal"
-                              data-target="#popup_bid"
-                              className="tf-button"
-                            >
-                              {" "}
-                              <span className="icon-btn-product" /> Place Bid
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    {/* item*/}
+            <div className="row tf-filter-container wow fadeInUp">
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 tf-loadmore 3d cyber">
+              <div className="sc-product style2">
+                <div className="top">
+                  <a href="item-details.html" className="tag">
+                    Global
+                  </a>
+                  <div className="wish-list">
+                    <a href="#" className="heart-icon" />
                   </div>
-                  <div className="swiper-slide">
-                    <div className="slider-item">
-                      <div className="sc-product style1">
-                        <div className="top">
-                          <a href="item-details.html" className="tag">
-                            Giulia Glur #32
-                          </a>
-                          <div className="wish-list">
-                            <a href="#" className="heart-icon" />
-                          </div>
-                        </div>
-                        <div className="features">
-                          <div className="product-media">
-                            <img
-                              src="assets/images/product/product27.jpg"
-                              alt="images"
-                            />
-                          </div>
-                          <div className="featured-countdown">
-                            <span
-                              className="js-countdown"
-                              data-timer={55555}
-                              data-labels=" ,  h , m , s "
-                            />
-                          </div>
-                          <div className="rain-drop1">
-                            <img
-                              src="assets/images/icon/rain1.svg"
-                              alt="images"
-                            />
-                          </div>
-                          <div className="rain-drop2">
-                            <img
-                              src="assets/images/icon/rain2.svg"
-                              alt="images"
-                            />
-                          </div>
-                        </div>
-                        <div className="bottom">
-                          <div className="details-product">
-                            <div className="author">
-                              <div className="avatar">
-                                <img
-                                  src="assets/images/author/author14.png"
-                                  alt="images"
-                                />
-                              </div>
-                              <div className="content">
-                                <div className="position">Creator</div>
-                                <div className="name">
-                                  {" "}
-                                  <a href="#">Frederick Dixon</a>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="current-bid">
-                              <div className="subtitle"></div>
-                              <div className="price">
-                                <span className="cash">5 ETH</span>
-                                <span className="icon">
-                                  <img
-                                    src="assets/icon/preload.png"
-                                    alt="images"
-                                  />
-                                </span>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="product-button">
-                            <a
-                              href="#"
-                              data-toggle="modal"
-                              data-target="#popup_bid"
-                              className="tf-button"
-                            >
-                              {" "}
-                              <span className="icon-btn-product" /> Place Bid
-                            </a>
-                          </div>
+                </div>
+                <div className="bottom">
+                  <div className="details-product">
+                    <div className="author">
+                      <div className="avatar">
+                        <img
+                          src="assets/images/author/author1.png"
+                          alt="images"
+                        />
+                      </div>
+                      <div className="content">
+                        <div className="position">Creator</div>
+                        <div className="name">
+                          {" "}
+                          <a href="#">Frank Stevens</a>
                         </div>
                       </div>
                     </div>
-                    {/* item*/}
                   </div>
-                  <div className="swiper-slide">
-                    <div className="slider-item">
-                      <div className="sc-product style1">
-                        <div className="top">
-                          <a href="item-details.html" className="tag">
-                            Archetype #588
-                          </a>
-                          <div className="wish-list">
-                            <a href="#" className="heart-icon" />
-                          </div>
-                        </div>
-                        <div className="features">
-                          <div className="product-media">
-                            <img
-                              src="assets/images/product/product28.jpg"
-                              alt="images"
-                            />
-                          </div>
-                          <div className="featured-countdown">
-                            <span
-                              className="js-countdown"
-                              data-timer={55555}
-                              data-labels=" ,  h , m , s "
-                            />
-                          </div>
-                          <div className="rain-drop1">
-                            <img
-                              src="assets/images/icon/rain1.svg"
-                              alt="images"
-                            />
-                          </div>
-                          <div className="rain-drop2">
-                            <img
-                              src="assets/images/icon/rain2.svg"
-                              alt="images"
-                            />
-                          </div>
-                        </div>
-                        <div className="bottom">
-                          <div className="details-product">
-                            <div className="author">
-                              <div className="avatar">
-                                <img
-                                  src="assets/images/author/author15.png"
-                                  alt="images"
-                                />
-                              </div>
-                              <div className="content">
-                                <div className="position">Creator</div>
-                                <div className="name">
-                                  {" "}
-                                  <a href="#">Theo Watts</a>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="current-bid">
-                              <div className="subtitle"></div>
-                              <div className="price">
-                                <span className="cash">5 ETH</span>
-                                <span className="icon">
-                                  <img
-                                    src="assets/icon/preload.png"
-                                    alt="images"
-                                  />
-                                </span>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="product-button">
-                            <a
-                              href="#"
-                              data-toggle="modal"
-                              data-target="#popup_bid"
-                              className="tf-button"
-                            >
-                              {" "}
-                              <span className="icon-btn-product" /> Place Bid
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    {/* item*/}
+                </div>
+                <div className="features">
+                  <div className="product-media">
+                    <img
+                      src="assets/images/product/product2.jpg"
+                      alt="images"
+                    />
                   </div>
-                  <div className="swiper-slide">
-                    <div className="slider-item">
-                      <div className="sc-product style1">
-                        <div className="top">
-                          <a href="item-details.html" className="tag">
-                            3DPunks #070
-                          </a>
-                          <div className="wish-list">
-                            <a href="#" className="heart-icon" />
-                          </div>
-                        </div>
-                        <div className="features">
-                          <div className="product-media">
-                            <img
-                              src="assets/images/product/product29.jpg"
-                              alt="images"
-                            />
-                          </div>
-                          <div className="featured-countdown">
-                            <span
-                              className="js-countdown"
-                              data-timer={55555}
-                              data-labels=" ,  h , m , s "
-                            />
-                          </div>
-                          <div className="rain-drop1">
-                            <img
-                              src="assets/images/icon/rain1.svg"
-                              alt="images"
-                            />
-                          </div>
-                          <div className="rain-drop2">
-                            <img
-                              src="assets/images/icon/rain2.svg"
-                              alt="images"
-                            />
-                          </div>
-                        </div>
-                        <div className="bottom">
-                          <div className="details-product">
-                            <div className="author">
-                              <div className="avatar">
-                                <img
-                                  src="assets/images/author/author16.png"
-                                  alt="images"
-                                />
-                              </div>
-                              <div className="content">
-                                <div className="position">Creator</div>
-                                <div className="name">
-                                  {" "}
-                                  <a href="#">Neville Gutierrez</a>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="current-bid">
-                              <div className="subtitle"></div>
-                              <div className="price">
-                                <span className="cash">5 ETH</span>
-                                <span className="icon">
-                                  <img
-                                    src="assets/icon/preload.png"
-                                    alt="images"
-                                  />
-                                </span>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="product-button">
-                            <a
-                              href="#"
-                              data-toggle="modal"
-                              data-target="#popup_bid"
-                              className="tf-button"
-                            >
-                              {" "}
-                              <span className="icon-btn-product" /> Place Bid
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    {/* item*/}
+                  <div className="rain-drop1">
+                    <img src="assets/images/icon/rain1.svg" alt="images" />
                   </div>
-                  <div className="swiper-slide">
-                    <div className="slider-item">
-                      <div className="sc-product style1">
-                        <div className="top">
-                          <a href="item-details.html" className="tag">
-                            Angelic Nyan Cat
-                          </a>
-                          <div className="wish-list">
-                            <a href="#" className="heart-icon" />
-                          </div>
-                        </div>
-                        <div className="features">
-                          <div className="product-media">
-                            <img
-                              src="assets/images/product/product31.jpg"
-                              alt="images"
-                            />
-                          </div>
-                          <div className="featured-countdown">
-                            <span
-                              className="js-countdown"
-                              data-timer={55555}
-                              data-labels=" ,  h , m , s "
-                            />
-                          </div>
-                          <div className="rain-drop1">
-                            <img
-                              src="assets/images/icon/rain1.svg"
-                              alt="images"
-                            />
-                          </div>
-                          <div className="rain-drop2">
-                            <img
-                              src="assets/images/icon/rain2.svg"
-                              alt="images"
-                            />
-                          </div>
-                        </div>
-                        <div className="bottom">
-                          <div className="details-product">
-                            <div className="author">
-                              <div className="avatar">
-                                <img
-                                  src="assets/images/author/author17.png"
-                                  alt="images"
-                                />
-                              </div>
-                              <div className="content">
-                                <div className="position">Creator</div>
-                                <div className="name">
-                                  {" "}
-                                  <a href="#">Frederick Dixon</a>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="current-bid">
-                              <div className="subtitle"></div>
-                              <div className="price">
-                                <span className="cash">5 ETH</span>
-                                <span className="icon">
-                                  <img
-                                    src="assets/icon/preload.png"
-                                    alt="images"
-                                  />
-                                </span>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="product-button">
-                            <a
-                              href="#"
-                              data-toggle="modal"
-                              data-target="#popup_bid"
-                              className="tf-button"
-                            >
-                              {" "}
-                              <span className="icon-btn-product" /> Place Bid
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    {/* item*/}
+                  <div className="rain-drop2">
+                    <img src="assets/images/icon/rain2.svg" alt="images" />
                   </div>
-                  <div className="swiper-slide">
-                    <div className="slider-item">
-                      <div className="sc-product style1">
-                        <div className="top">
-                          <a href="item-details.html" className="tag">
-                            Sweet Baby #1
-                          </a>
-                          <div className="wish-list">
-                            <a href="#" className="heart-icon" />
-                          </div>
-                        </div>
-                        <div className="features">
-                          <div className="product-media">
-                            <img
-                              src="assets/images/product/product30.jpg"
-                              alt="images"
-                            />
-                          </div>
-                          <div className="featured-countdown">
-                            <span
-                              className="js-countdown"
-                              data-timer={55555}
-                              data-labels=" ,  h , m , s "
-                            />
-                          </div>
-                          <div className="rain-drop1">
-                            <img
-                              src="assets/images/icon/rain1.svg"
-                              alt="images"
-                            />
-                          </div>
-                          <div className="rain-drop2">
-                            <img
-                              src="assets/images/icon/rain2.svg"
-                              alt="images"
-                            />
-                          </div>
-                        </div>
-                        <div className="bottom">
-                          <div className="details-product">
-                            <div className="author">
-                              <div className="avatar">
-                                <img
-                                  src="assets/images/author/author1.png"
-                                  alt="images"
-                                />
-                              </div>
-                              <div className="content">
-                                <div className="position">Creator</div>
-                                <div className="name">
-                                  {" "}
-                                  <a href="#">Stephan Neal</a>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="current-bid">
-                              <div className="subtitle"></div>
-                              <div className="price">
-                                <span className="cash">5 ETH</span>
-                                <span className="icon">
-                                  <img
-                                    src="assets/icon/preload.png"
-                                    alt="images"
-                                  />
-                                </span>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="product-button">
-                            <a
-                              href="#"
-                              data-toggle="modal"
-                              data-target="#popup_bid"
-                              className="tf-button"
-                            >
-                              {" "}
-                              <span className="icon-btn-product" /> Place Bid
-                            </a>
-                          </div>
-                        </div>
-                      </div>
+                </div>
+                <div className="bottom-style2">
+                  <div className="price">
+                    <div className="icon">
+                      <img src="assets/icon/preload.png" alt="images" />
                     </div>
-                    {/* item*/}
+                    <div className="content">
+                      <div className="name">ETH</div>
+                      <div className="cash">4.53</div>
+                    </div>
+                  </div>
+                  <div className="product-button">
+                    <a
+                      href="#"
+                      data-toggle="modal"
+                      data-target="#popup_bid"
+                      className="tf-button"
+                    >
+                      {" "}
+                      Purchase
+                    </a>
                   </div>
                 </div>
               </div>
-              <div className="swiper-pagination swiper-pagination-live-auction" />
-              <div className="swiper-button-next button-live-auction-next" />
-              <div className="swiper-button-prev button-live-auction-prev" />
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 tf-loadmore 3d pixel">
+              <div className="sc-product style2">
+                <div className="top">
+                  <a href="item-details.html" className="tag">
+                    Global
+                  </a>
+                  <div className="wish-list">
+                    <a href="#" className="heart-icon" />
+                  </div>
+                </div>
+                <div className="bottom">
+                  <div className="details-product">
+                    <div className="author">
+                      <div className="avatar">
+                        <img
+                          src="assets/images/author/author14.png"
+                          alt="images"
+                        />
+                      </div>
+                      <div className="content">
+                        <div className="position">Creator</div>
+                        <div className="name">
+                          {" "}
+                          <a href="#">Buck Morrison</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="features">
+                  <div className="product-media">
+                    <img
+                      src="assets/images/product/product32.jpg"
+                      alt="images"
+                    />
+                  </div>
+                  <div className="rain-drop1">
+                    <img src="assets/images/icon/rain1.svg" alt="images" />
+                  </div>
+                  <div className="rain-drop2">
+                    <img src="assets/images/icon/rain2.svg" alt="images" />
+                  </div>
+                </div>
+                <div className="bottom-style2">
+                  <div className="price">
+                    <div className="icon">
+                      <img src="assets/icon/preload.png" alt="images" />
+                    </div>
+                    <div className="content">
+                      <div className="name">ETH</div>
+                      <div className="cash">4.53</div>
+                    </div>
+                  </div>
+                  <div className="product-button">
+                    <a
+                      href="#"
+                      data-toggle="modal"
+                      data-target="#popup_bid"
+                      className="tf-button"
+                    >
+                      {" "}
+                      Purchase
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 tf-loadmore 3d music">
+              <div className="sc-product style2">
+                <div className="top">
+                  <a href="item-details.html" className="tag">
+                    Global
+                  </a>
+                  <div className="wish-list">
+                    <a href="#" className="heart-icon" />
+                  </div>
+                </div>
+                <div className="bottom">
+                  <div className="details-product">
+                    <div className="author">
+                      <div className="avatar">
+                        <img
+                          src="assets/images/author/author15.png"
+                          alt="images"
+                        />
+                      </div>
+                      <div className="content">
+                        <div className="position">Creator</div>
+                        <div className="name">
+                          {" "}
+                          <a href="#">Henrietta Collins</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="features">
+                  <div className="product-media">
+                    <img
+                      src="assets/images/product/product33.jpg"
+                      alt="images"
+                    />
+                  </div>
+                  <div className="rain-drop1">
+                    <img src="assets/images/icon/rain1.svg" alt="images" />
+                  </div>
+                  <div className="rain-drop2">
+                    <img src="assets/images/icon/rain2.svg" alt="images" />
+                  </div>
+                </div>
+                <div className="bottom-style2">
+                  <div className="price">
+                    <div className="icon">
+                      <img src="assets/icon/preload.png" alt="images" />
+                    </div>
+                    <div className="content">
+                      <div className="name"></div>
+                      <div className="cash">4.53</div>
+                    </div>
+                  </div>
+                  <div className="product-button">
+                    <a
+                      href="#"
+                      data-toggle="modal"
+                      data-target="#popup_bid"
+                      className="tf-button"
+                    >
+                      {" "}
+                      Purchase
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
         </div>
       </section>
       <section className="tf-section tf-create-and-sell">

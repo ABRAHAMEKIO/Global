@@ -30,7 +30,7 @@ function Header() {
                     <a href="#">Explore</a>
                     <ul className="sub-menu">
                       <li className="menu-item">
-                        <a href="explore-grid.html">Explore</a>
+                        <a href="/Explore">Explore</a>
                       </li>
                       <li className="menu-item">
                         <a href="explore-banner.html">Explore 2</a>
@@ -152,7 +152,8 @@ function Header() {
               <a href="/ConnectWallet" className="tf-button ">
                 <span>Connect Wallet</span>
               </a>
-              <span className="user ">
+              <a href="/Profile" className="user">
+             
                 <svg
                   width={20}
                   height={18}
@@ -221,7 +222,7 @@ function Header() {
                     />
                   </g>
                 </svg>
-              </span>
+              </a>
               <a href="#" onclick="switchTheme()" className="mode-switch">
                 <img
                   id="img-mode"

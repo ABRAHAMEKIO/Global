@@ -202,66 +202,35 @@
 
 /* product-category 
 --------------------------------------------------*/
+.product-categories {
+  display: flex; /* Aligns the categories inline */
+  gap: 20px; /* Adds spacing between the categories */
+}
+
 .tf-product-category {
   position: relative;
   border-radius: 20px;
   overflow: hidden;
+  width: 250px; /* Adjust width */
+  height: 150px; /* Adjust height */
 }
+
 .tf-product-category img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
+
 .tf-product-category .category {
   position: absolute;
   bottom: 0;
-  left: 0%;
+  left: 0;
   text-align: center;
   width: 100%;
   background: rgba(0, 0, 0, 0.08);
   padding: 15px 0;
   z-index: 2;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
-}
-.tf-product-category .category::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backdrop-filter: blur(20px);
-  left: 0;
-  bottom: 0;
-  z-index: 1;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-.tf-product-category .category a {
-  font-size: 20px;
-  line-height: 26px;
-  font-weight: 700;
-  color: #fff;
-  position: relative;
-  z-index: 2;
-}
-.tf-product-category:hover {
-  cursor: pointer;
-}
-.tf-product-category:hover .category {
-  padding: 30px 0;
-}
-.tf-product-category:hover .category::after {
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  background: rgba(20, 20, 20, 0.8);
-  backdrop-filter: none;
 }
 
 /* Collection
